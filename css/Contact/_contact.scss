@@ -1,0 +1,39 @@
+#map{
+	.map{
+		.mg-top{
+			margin-top: $uno;
+		}
+		p{
+			margin-top: 15%;
+		}
+		h6{
+			color: $strong-red;
+			font-size:large;
+		}
+		input{
+			margin-bottom: $cinco;
+			border: .1em solid $strong-red;
+		}
+		.tini{
+			width: 60%;
+		}
+		.gde{
+			width: 100%;
+			height: 15em;
+		}
+		.gde::-webkit-input-placeholder { color:$strong-red; font-family: 'Oswald', sans-serif; } /* WebKit */
+		.tini::-webkit-input-placeholder { color:$strong-red; font-family: 'Oswald', sans-serif; } /* WebKit */
+		.mg-top1{
+			margin-top: $cinco;
+			button{
+				background-color: $strong-red;
+				color: $blanco;
+				width: 100%;
+				padding: $dos;
+				font-size: large;
+				border: none;
+				font-family: 'Oswald', sans-serif;
+			}
+		}
+	}	
+}

@@ -1,0 +1,187 @@
+@import "variables/_variables";
+@import "header/_header";
+@import "contact/_contact";
+@import "portfolio/_portfolio";
+@import "blog/_blog";
+#slider{
+	.carousel-inner{
+		img{
+			
+			width: 100%;
+			height: 27em;
+		}
+	}
+	.slider1{
+		margin-top: -4.7%;
+		background-color: $blanco;
+	}
+	.bg-red{
+		background-color: #ff9999;
+		padding: $dos;
+	}
+}
+#items{
+	h3{
+		font-family: 'Oswald', sans-serif;
+		color: $strong-red;
+	}
+	i{
+		color: $strong-red;
+		margin-top: 65%;
+		margin-left: 5%;
+	}
+	p{
+		padding:$cinco;
+	}
+	button{
+		background-color:$strong-red; 
+		border:none;
+		margin-left: $cinco;
+		padding: 3%;
+		a{
+			text-decoration: none;
+			color: $blanco;
+		}
+	}
+}
+#blog{
+	.bg-lines{
+		margin-top: 1%;
+		background-image: url("../images/post_border_bg.png");
+		padding: .55%;
+		background-position: center;
+		width: 87%;
+		margin-left: -5%;
+	}
+	h5{
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		font-size:large;
+		color:$strong-red;
+	}
+	.col-md-3{
+		img{
+			width: 100%;
+		}
+	}
+	.blog_post_meta{
+		border: .05em solid gray;
+	}
+	
+}
+footer{
+	color: $blanco;
+	#footer1{
+		background-color:$strong-red;
+		height: 27em;
+		margin-top: -0%;
+	}
+	h2{
+		font-family: 'Oswald', sans-serif;
+		margin-bottom: $diez;
+	}
+	.white{
+		background-color: white !important;
+		padding: $uno;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: -28%;
+	}
+	.bg-red{
+		margin-top: $cinco;
+		background-color: #ff9999;
+		padding: 14%;
+	}
+	.social_area{
+		img{
+			margin-top: $diez;
+		}
+	}
+}
+#bar-all{
+	margin-bottom: $dos;
+	@extend footer;
+	#footer1{
+		height: 3em;
+		margin-top: 2.68%;
+	}
+.white{
+		margin-top: -5.4%;
+
+	}
+	.bg-red{
+		margin-top:0%;
+		background-color: #ff9999;
+		height: 3em;
+		padding: 0%;
+	}
+	
+}
+#bar-right{
+	.bg-lines{
+		margin-top: 3.5%;
+		background-image: url("../images/post_border_bg.png");
+		padding: 2%;
+		background-position: center;
+		width: 60%;
+		margin-left: -7%;
+	}
+	span{
+		font-size: small;
+	}
+	h5{
+		font-family: 'Oswald', sans-serif;
+		font-size: medium;
+		color:$strong-red;
+		text-transform: uppercase;
+	}
+	ul{
+		list-style-type: none;
+		margin-left: -12%;
+	}
+	li{
+		a{
+			color: black;
+			font-size: medium;
+		}
+	}
+	.gallery{
+		margin-left: 3%;
+		margin-top: $dos;
+		.square{
+			border: .1em solid $strong-red;
+			margin-right: 1%;
+			width: 20%;
+			height: 4em;
+			background-color: #ff9999 ;
+		}
+	}
+}
+#info{
+	font-size: medium;
+	.author{
+		p{
+			margin-left: -$cinco;
+			
+		}
+		img{
+			margin-bottom: $veinte;
+			width: 90%;
+		}
+	}
+	.brdr{
+		border-left: .5em solid $strong-red;
+		margin-top: $cinco;
+		margin-bottom: $cinco;
+		p{
+			margin-left: $dos;
+			color: $strong-red;
+		}
+	}
+	.txt{
+		p{
+			margin-top: $dos;
+			margin-bottom: $dos;
+		}
+	}
+}

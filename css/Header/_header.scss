@@ -1,0 +1,27 @@
+@import "../variables/_variables";
+.header_area{
+	.navbar-default{
+		background-color: $blanco;
+	}
+	li{
+		a{
+			color: #b3b3b3;
+			font-family: 'Oswald', sans-serif;
+		}
+		.active{
+			color: $strong-red !important;
+		}
+	}
+	h2{
+		color: #ff4d4d;
+		font-family: 'Oswald', sans-serif;
+		margin-top: 1%;
+		span{
+			color: #ff8080;
+		}
+	}
+
+}
+.header_area_all{
+	@extend .header_area;
+}

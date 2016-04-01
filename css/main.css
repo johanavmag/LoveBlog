@@ -1,0 +1,272 @@
+.header_area .navbar-default, .header_area_all .navbar-default {
+  background-color: white; }
+.header_area li a, .header_area_all li a {
+  color: #b3b3b3;
+  font-family: 'Oswald', sans-serif; }
+.header_area li .active, .header_area_all li .active {
+  color: #ff4d4d !important; }
+.header_area h2, .header_area_all h2 {
+  color: #ff4d4d;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1%; }
+  .header_area h2 span, .header_area_all h2 span {
+    color: #ff8080; }
+
+#map .map {
+  /* WebKit */
+  /* WebKit */ }
+  #map .map .mg-top {
+    margin-top: 1%; }
+  #map .map p {
+    margin-top: 15%; }
+  #map .map h6 {
+    color: #ff4d4d;
+    font-size: large; }
+  #map .map input {
+    margin-bottom: 5%;
+    border: 0.1em solid #ff4d4d; }
+  #map .map .tini {
+    width: 60%; }
+  #map .map .gde {
+    width: 100%;
+    height: 15em; }
+  #map .map .gde::-webkit-input-placeholder {
+    color: #ff4d4d;
+    font-family: 'Oswald', sans-serif; }
+  #map .map .tini::-webkit-input-placeholder {
+    color: #ff4d4d;
+    font-family: 'Oswald', sans-serif; }
+  #map .map .mg-top1 {
+    margin-top: 5%; }
+    #map .map .mg-top1 button {
+      background-color: #ff4d4d;
+      color: white;
+      width: 100%;
+      padding: 2%;
+      font-size: large;
+      border: none;
+      font-family: 'Oswald', sans-serif; }
+
+/*---------Portfolio---------*/
+#categories {
+  font-family: 'Oswald', sans-serif; }
+  #categories .row {
+    margin-bottom: 5%; }
+  #categories h3 {
+    color: #999999;
+    font-size: large;
+    margin-left: 2%; }
+  #categories h4 {
+    color: #ff4d4d;
+    font-size: small;
+    margin-left: 2%; }
+
+#menu {
+  font-family: 'Oswald', sans-serif; }
+  #menu ul {
+    list-style-type: none;
+    margin-left: 6%;
+    margin-top: -2.5%;
+    margin-bottom: 4%; }
+  #menu li {
+    display: inline;
+    margin-right: 3%; }
+    #menu li a {
+      text-decoration: none;
+      color: #999999; }
+    #menu li .active {
+      background-color: #ff4d4d;
+      padding: 1.5%;
+      color: white; }
+
+/*blog*/
+.butn {
+  margin-left: -295%;
+  width: 7.5em;
+  height: 5em;
+  background-color: #ff4d4d;
+  border: none;
+  color: white; }
+
+.position {
+  margin-left: -10%;
+  width: 100%; }
+
+#date {
+  margin-top: 5%; }
+  #date h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #ff4d4d; }
+  #date h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    color: #ff4d4d; }
+
+.bar-right1 .bg-lines1 {
+  margin-top: 3.5%;
+  background-image: url("../images/post_border_bg.png");
+  padding: 1%;
+  background-position: center;
+  width: 100%; }
+
+.post2 {
+  margin-top: 5%; }
+  .post2 img {
+    width: 103%; }
+
+.bg-gray {
+  background-color: #e6e6e6;
+  margin-left: 8%;
+  width: 94%;
+  padding: 2%; }
+  .bg-gray i {
+    color: #ff4d4d; }
+
+.bg-1 {
+  margin-left: 8%;
+  width: 94%;
+  padding: 2%; }
+
+.txt-tini {
+  font-size: x-small; }
+
+#blog-body h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+  color: #ff4d4d; }
+#blog-body .pagination {
+  margin-top: 5%; }
+  #blog-body .pagination li a {
+    background-color: #ff4d4d;
+    color: white; }
+
+#slider .carousel-inner img {
+  width: 100%;
+  height: 27em; }
+#slider .slider1 {
+  margin-top: -4.7%;
+  background-color: white; }
+#slider .bg-red {
+  background-color: #ff9999;
+  padding: 2%; }
+
+#items h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #ff4d4d; }
+#items i {
+  color: #ff4d4d;
+  margin-top: 65%;
+  margin-left: 5%; }
+#items p {
+  padding: 5%; }
+#items button {
+  background-color: #ff4d4d;
+  border: none;
+  margin-left: 5%;
+  padding: 3%; }
+  #items button a {
+    text-decoration: none;
+    color: white; }
+
+#blog .bg-lines, #categories .bg-lines {
+  margin-top: 1%;
+  background-image: url("../images/post_border_bg.png");
+  padding: .55%;
+  background-position: center;
+  width: 87%;
+  margin-left: -5%; }
+#blog h5, #categories h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+  color: #ff4d4d; }
+#blog .col-md-3 img, #categories .col-md-3 img {
+  width: 100%; }
+#blog .blog_post_meta, #categories .blog_post_meta {
+  border: .05em solid gray; }
+
+footer, #bar-all {
+  color: white; }
+  footer #footer1, #bar-all #footer1 {
+    background-color: #ff4d4d;
+    height: 27em;
+    margin-top: -0%; }
+  footer h2, #bar-all h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10%; }
+  footer .white, #bar-all .white {
+    background-color: white !important;
+    padding: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: -28%; }
+  footer .bg-red, #bar-all .bg-red {
+    margin-top: 5%;
+    background-color: #ff9999;
+    padding: 14%; }
+  footer .social_area img, #bar-all .social_area img {
+    margin-top: 10%; }
+
+#bar-all {
+  margin-bottom: 2%; }
+  #bar-all #footer1 {
+    height: 3em;
+    margin-top: 2.68%; }
+  #bar-all .white {
+    margin-top: -5.4%; }
+  #bar-all .bg-red {
+    margin-top: 0%;
+    background-color: #ff9999;
+    height: 3em;
+    padding: 0%; }
+
+#bar-right .bg-lines {
+  margin-top: 3.5%;
+  background-image: url("../images/post_border_bg.png");
+  padding: 2%;
+  background-position: center;
+  width: 60%;
+  margin-left: -7%; }
+#bar-right span {
+  font-size: small; }
+#bar-right h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: medium;
+  color: #ff4d4d;
+  text-transform: uppercase; }
+#bar-right ul {
+  list-style-type: none;
+  margin-left: -12%; }
+#bar-right li a {
+  color: black;
+  font-size: medium; }
+#bar-right .gallery {
+  margin-left: 3%;
+  margin-top: 2%; }
+  #bar-right .gallery .square {
+    border: 0.1em solid #ff4d4d;
+    margin-right: 1%;
+    width: 20%;
+    height: 4em;
+    background-color: #ff9999; }
+
+#info {
+  font-size: medium; }
+  #info .author p {
+    margin-left: -5%; }
+  #info .author img {
+    margin-bottom: 20%;
+    width: 90%; }
+  #info .brdr {
+    border-left: 0.5em solid #ff4d4d;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    #info .brdr p {
+      margin-left: 2%;
+      color: #ff4d4d; }
+  #info .txt p {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+
+/*# sourceMappingURL=main.css.map */

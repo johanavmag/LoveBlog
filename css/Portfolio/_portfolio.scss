@@ -1,0 +1,41 @@
+/*---------Portfolio---------*/
+#categories{
+	@extend #blog;
+
+	font-family: 'Oswald', sans-serif;
+	.row{
+		margin-bottom: $cinco;
+	}
+	h3{
+		color:#999999;
+		font-size: large;
+		margin-left: $dos;
+	}
+	h4{
+		color:$strong-red;
+		font-size: small;
+		margin-left: $dos;
+	}
+}
+#menu{
+	font-family: 'Oswald', sans-serif;
+	ul{
+		list-style-type: none;
+		margin-left: 6%;
+		margin-top: -2.5%;
+		margin-bottom: 4%;
+	}
+	li{
+		display: inline;
+		margin-right: 3%;
+		a{
+			text-decoration: none;
+			color:#999999;
+		}
+		.active{
+			background-color:$strong-red;
+			padding: 1.5%;
+			color: $blanco;
+		}
+	}
+}
